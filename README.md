@@ -6,7 +6,7 @@
 
 ## Description
 
-A command line tool to extract grades from Markus. Current version is limited to Markus at *University of Toronto* on. The course listing are available [here](https://markus.teach.cs.toronto.edu/).
+A command line tool to extract grades from Markus. Current version is limited to Markus at *University of Toronto*. The course listing is available [here](https://markus.teach.cs.toronto.edu/).
 
 ## Install
 
