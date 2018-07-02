@@ -2,10 +2,10 @@ from setuptools import setup
 
 setup(
     # The name of our pip package
-    name='markus_script',
+    name='markus_scraper',
     # The Python packages in this project
     packages=[
-        'markus_script',
+        'markus_scraper',
     ],
     python_requires='>=3.5.2',
     include_package_data=True,
@@ -16,7 +16,7 @@ setup(
     entry_points={
         'console_scripts': [
             # Link main() with shell command 'markus-script'
-            'markus_script = markus_script.markus_script:main',
+            'markus_scraper = markus_scraper.markus_scraper:main',
         ],
     },
 )
