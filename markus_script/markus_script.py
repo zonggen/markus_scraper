@@ -10,7 +10,8 @@ import getpass
 # Set up chrome driver
 homepage = 'https://markus.teach.cs.toronto.edu/'
 # uw_homepage = 'https://markus.student.cs.uwaterloo.ca/'
-path = str(Path(__file__).absolute().parent) + '/chromedriver'
+path = str(Path(__file__).absolute().parent) + \
+        ('/chromedriver_linux' if sys.platform == 'linux' else '/chromedriver_mac')
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 driver = webdriver.Chrome(executable_path=path, chrome_options=chrome_options)
