@@ -1,4 +1,4 @@
-# markus_script
+# markus_scraper
 
 [![Python Version](https://img.shields.io/badge/python-v3.5.2-blue.svg)](https://www.python.org/downloads/release/python-352/)
 ![Platforms](https://img.shields.io/badge/platform-linux--64%20%7C%20osx--64-blue.svg)
@@ -24,7 +24,7 @@ A command line tool to extract grades from Markus. Current version is limited to
  
 ## Usage
   Enter ```exit``` at any point to exit the program.  
-   `$ markus_script`
+   `$ markus_scraper`
   
 ## Uninstall
-  `$ pip uninstall markus_script`
+  `$ pip uninstall markus_scraper`
