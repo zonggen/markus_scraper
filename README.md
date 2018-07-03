@@ -3,7 +3,7 @@
 [![Python Version](https://img.shields.io/badge/python-v3.5.2-blue.svg)](https://www.python.org/downloads/release/python-352/)
 ![Platforms](https://img.shields.io/badge/platform-linux--64%20%7C%20osx--64-blue.svg)
 
-![markus_scraper](https://user-images.githubusercontent.com/26239939/42198232-be041566-7e54-11e8-88a2-e7eed388711d.gif)
+![markus_scraper](https://user-images.githubusercontent.com/26239939/42198751-fbec5cc8-7e57-11e8-8b56-eda80fb4ff0c.gif)
 
 ## Description
 
