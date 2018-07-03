@@ -27,4 +27,4 @@ A command line tool to extract grades from Markus. Current version is limited to
    `$ markus_scraper`
   
 ## Uninstall
-  `$ pip uninstall markus_scraper`
+  `$ pip3 uninstall markus_scraper`
