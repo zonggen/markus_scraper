@@ -77,8 +77,8 @@ def log_out ():
     log_out_button.click()
 
 def main ():
-    print_current_courses()
     try:
+        print_current_courses()
         while True:
             course = input ('Course# (eg. CSC 373): ').strip().replace(' ', '')
             print()
@@ -92,5 +92,9 @@ def main ():
                 sys.exit()
             else:
                 print ('Course Not Found.')
+    except:
+        print()
+        driver.quit()
+        sys.exit()
     finally:
         driver.quit()

@@ -12,7 +12,7 @@ setup(
     install_requires=[
         'selenium',
     ],
-    version="0.0.1",
+    version="0.0.2",
     entry_points={
         'console_scripts': [
             # Link main() with shell command 'markus-script'
