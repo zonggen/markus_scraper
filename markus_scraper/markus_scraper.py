@@ -19,7 +19,7 @@ driver = webdriver.Chrome(executable_path=path, chrome_options=chrome_options)
 # Hash table for Course:Link
 course_map = dict()
 
-# Sracp the grade of current selected course.
+# Scrape the grade of current selected course.
 def print_grade ():
     rows = driver.find_elements_by_css_selector('#content .section tr')
     for row in rows:
